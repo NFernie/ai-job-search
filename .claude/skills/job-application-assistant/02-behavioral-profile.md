@@ -4,51 +4,56 @@ framework_version: 1.0.0
 
 # Behavioral Profile
 
-<!-- SETUP: This file is populated by running /setup -->
-<!-- You can use results from PI, DISC, Myers-Briggs, StrengthsFinder, or a self-assessment -->
+No formal PI, DISC, Myers-Briggs, or StrengthsFinder report is on file. The notes below are inferred from the public career arc (research to wellsite to geomechanics to development geology; independent geosteering tooling) and must be treated as a first draft.
+
+*[Inferred from public career path and GitHub projects - review before relying on this]*
 
 ## Overview
-[YOUR_NAME]'s behavioral assessment identifies them as a **[PROFILE_TYPE]** pattern. [1-2 SENTENCE_SUMMARY].
+Nicholas Fernie's public record reads as a **technical specialist who moves between operations, mechanics, and development geology**, and who builds his own decision-support tools when existing workflows are not enough. The pattern is depth in a basin (Cooper-Eromanga) plus a bias toward making subsurface data usable at the well.
 
 ## Core Behavioral Drives
 
 | Drive | Level | Meaning |
 |-------|-------|---------|
-| [DRIVE_1] | [LEVEL] | [DESCRIPTION] |
-| [DRIVE_2] | [LEVEL] | [DESCRIPTION] |
-| [DRIVE_3] | [LEVEL] | [DESCRIPTION] |
-| [DRIVE_4] | [LEVEL] | [DESCRIPTION] |
+| Technical mastery | High | MPhil plus peer-reviewed thermochronology; specialist geomechanics year; multi-year development geology |
+| Building tools | High | Geosteering Guide is a substantial independent system (ingest, API, UI, Petrel export conventions), not a weekend script |
+| Operations contact | Medium-High | Graduate year as wellsite geologist; geosteering work is drilling-decision oriented |
+| Academic publication | Medium | Continues to publish on Cooper-Eromanga after moving into industry |
 
 ## Strongest Behaviors
-- **[BEHAVIOR_1]:** [DESCRIPTION]
-- **[BEHAVIOR_2]:** [DESCRIPTION]
-- **[BEHAVIOR_3]:** [DESCRIPTION]
+- **Depth over breadth:** Cooper Basin appears in the thesis, a 2024 basin paper, and the public analogue wells used for geosteering.
+- **Translate data into a decision:** Geosteering Guide is explicitly a decision-support tool (target windows, logs, cuttings), not a visualisation toy.
+- **Comfort with incomplete data:** Academic thermochronology and analogue-well geosteering both require working through noisy, multi-source datasets.
 
 ## How You Work Best
-- [ENVIRONMENT_PREFERENCE_1]
-- [ENVIRONMENT_PREFERENCE_2]
-- [ENVIRONMENT_PREFERENCE_3]
+- Integrated subsurface problems with a clear operational question (where is the well relative to the target?)
+- Environments that value specialist geology, not generic IT support
+- Room to write tools when Petrel exports and well files need a tighter loop
 
 ## Growth Areas (frame positively in applications)
-- **[AREA_1]:** [HOW_TO_FRAME_IT_POSITIVELY]
-- **[AREA_2]:** [HOW_TO_FRAME_IT_POSITIVELY]
+- **Seismic / geomodelling stack:** Industry QI and full static-model construction are not evidenced. Frame as a learnable extension of log, surface, and structural skills, not as existing mastery.
+- **Published metrics:** Public profile lacks quantified field results. In interviews, bring confidential Santos examples rather than stretching GitHub metrics into production claims.
 
 ## Mapping to Job Posting Language
 
 When a job posting mentions these keywords, it's a **strong behavioral fit**:
-- [KEYWORD_OR_PHRASE_THAT_MATCHES_YOUR_STYLE]
-- [ANOTHER_KEYWORD]
+- multi-disciplinary / integrated team
+- development and producing assets
+- drilling or wellwork / well planning
+- reservoir description, well log analysis, structural analysis
+- self-motivation, technical judgment, clear technical communication
 
 When a job posting mentions these, flag as **potential friction** (not deal-breaker):
-- [KEYWORD_OR_PHRASE_THAT_MIGHT_CLASH]
-- [ANOTHER_KEYWORD]
+- quantitative seismic interpretation as a core daily skill
+- purely corporate / non-technical programme management
+- roles that are IT infrastructure rather than subsurface
 
 ## Management Style Preferences
-- [WHAT_MANAGEMENT_STYLE_WORKS_FOR_YOU]
-- [WHAT_DOESN'T_WORK]
+- Specialist technical leadership with access to operations and reservoir engineering, not a siloed reporting line
+- Ranking-heavy, high-politics environments (common in some ExxonMobil KL reviews) may grate; still compatible if the work is real subsurface support
 
 ## Using This in Applications
-- **Cover letters:** [HOW_TO_WEAVE_IN_BEHAVIORAL_STRENGTHS]
-- **CV:** [WHAT_TO_EMPHASIZE]
-- **Interviews:** [WHAT_STAR_EXAMPLES_TO_USE]
-- **Don't overstate:** [WHAT_NOT_TO_CLAIM]
+- **Cover letters:** Lead with Cooper Basin development geology plus geosteering / well-log integration. Do not claim seismic QI.
+- **CV:** Put well-log interpretation, Petrel exports, horizontal wells, and development-asset experience first.
+- **Interviews:** Use Geosteering Guide and the Cooper-Eromanga paper as public STAR material; keep Santos well names for the room, not the PDF, until the candidate confirms what can be disclosed.
+- **Don't overstate:** Do not present the GitHub tool as a Santos production system. Do not present Petrel exports as full static-model ownership.

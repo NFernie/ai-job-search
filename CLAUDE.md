@@ -1,10 +1,9 @@
-# Job Application Assistant for [YOUR_NAME]
+# Job Application Assistant for Nicholas Fernie
 
-<!-- SETUP: This file is populated by running /setup -->
-<!-- After running /setup, all [PLACEHOLDER] tokens will be replaced with your actual information -->
+<!-- SETUP: Profile assembled from public sources (LinkedIn, ORCID, publications, GitHub). documents/ was empty. Expand Santos bullets with confidential achievements before treating drafts as final. -->
 
 ## Role
-This repo is a job application workspace. Claude acts as a career advisor and application assistant for [YOUR_NAME], helping with:
+This repo is a job application workspace. Claude acts as a career advisor and application assistant for Nicholas Fernie, helping with:
 1. **Job fit evaluation** - Assess job postings against your profile (skills, experience, behavioral traits)
 2. **CV tailoring** - Adapt existing CV templates (LaTeX/moderncv) to target specific roles
 3. **Cover letter writing** - Draft targeted cover letters using existing templates (LaTeX)
@@ -13,79 +12,72 @@ This repo is a job application workspace. Claude acts as a career advisor and ap
 
 ## Candidate Profile
 
-<!-- This section is auto-populated by /setup. You can also fill it in manually. -->
-
 ### Identity
-- **Name:** [YOUR_NAME]
-- **Location:** [YOUR_CITY], [YOUR_COUNTRY] ([YOUR_COMMUTE_CONSTRAINTS])
+- **Name:** Nicholas Fernie
+- **Location:** Brisbane, Queensland, Australia (open to relocating to Kuala Lumpur and other APAC upstream hubs)
 - **Languages:**
   | Language | Level |
   |----------|-------|
-  | [LANGUAGE] | [LEVEL] |
-  <!-- Every language you work in professionally, with your level (CEFR, "native," "professional
-  working proficiency," whatever your CV/LinkedIn use - no need to force it into one scale). An
-  undeclared language is a hard deal-breaker if a posting requires it; a declared language at a
-  lower level than a posting wants is flagged for your own judgment, not auto-rejected. See
-  04-job-evaluation.md's Language Gate. -->
-- **CV language:** [YOUR_CV_LANGUAGE] <!-- English unless your market expects otherwise; /setup asks -->
+  | English | Native |
+- **CV language:** English
 
-- **Status:** [YOUR_EMPLOYMENT_STATUS]
-- **LinkedIn headline:** "[YOUR_LINKEDIN_HEADLINE]"
+- **Status:** Employed (Development Geologist, Santos Ltd)
+- **LinkedIn headline:** "Development Geologist at Santos Ltd"
 
 ### Education
-<!-- List your degrees, most recent first -->
-- **[DEGREE_LEVEL] in [FIELD]** ([YEAR_START]-[YEAR_END]) - [INSTITUTION]
-  - Thesis: "[THESIS_TITLE]"
-  - Topics: [KEY_TOPICS]
+- **MPhil in Geological and Earth Sciences** (2017-2019) - University of Adelaide
+  - Thesis: "Thermal History of Central Australia: Cooper Basin, South Australia & Anmatjira Range, Northern Territory: Insights from Apatite Fission Track and U-Pb Thermochronology."
+  - Topics: Cooper Basin thermal history, AFT, U-Pb thermochronology
+- **BSc (Hons) in Geology** (2016) - University of Adelaide
+  - Thesis: "Apatite Thermochronology of the Bole-Nangodi Shear Zone (northern Ghana): Insights into the Thermal History of Equatorial Atlantic Rifting."
+- **BSc in Earth Sciences** (2013-2015) - University of Adelaide
 
 ### Professional Experience
-<!-- List your roles, most recent first -->
-- **[JOB_TITLE]** ([START_DATE] - [END_DATE]) - **[COMPANY]** ([LOCATION])
-  - [KEY_RESPONSIBILITY_1]
-  - [KEY_RESPONSIBILITY_2]
-  - [KEY_ACHIEVEMENT]
+- **Development Geologist** (Feb 2021 - Present) - **Santos Ltd** (Brisbane, Australia)
+  - Development geology on producing assets (public title and dates; internal well metrics not published)
+  - Sustained Cooper Basin technical focus across thesis, 2024 Basin Research paper, and public geosteering analogue wells
+- **Geomechanist** (Feb 2020 - Feb 2021) - **Santos Ltd** (Brisbane, Australia)
+  - Specialist geomechanics posting supporting well planning
+- **Graduate Wellsite Geologist** (Jan 2019 - Jan 2020) - **Santos Ltd** (Adelaide, Australia)
+  - Operations geology at the wellsite
 
 ### Technical Skills
-- **Primary:** [YOUR_PRIMARY_SKILLS]
-- **Secondary:** [YOUR_SECONDARY_SKILLS]
-- **Domain:** [YOUR_DOMAIN_EXPERTISE]
-- **Software:** [YOUR_TOOLS_AND_SOFTWARE]
+- **Primary:** development geology; well-log interpretation (GR, resistivity, cuttings); wellsite operations; horizontal-well / geosteering decision support; Cooper-Eromanga subsurface
+- **Secondary:** geomechanics (one-year posting); Python / FastAPI well-data tooling; React UI for log replay
+- **Domain:** producing-asset development geoscience; basin thermal history; structural geology
+- **Software:** Petrel (LAS, surveys, tops, surface point-set export); Git; Docker
 
 ### Certifications
-<!-- List relevant certifications with dates -->
-- **[CERTIFICATION_NAME]** - [HOURS]h - completed [DATE]
+- None documented in public sources.
 
 ### Publications
-<!-- List peer-reviewed publications, if any -->
-- [AUTHOR_LIST] ([YEAR]). [TITLE]. [JOURNAL].
+- Fernie, N., Glorie, S., Jessell, M., & Collins, A. S. (2018). Thermochronological insights into reactivation of a continental shear zone in response to Equatorial Atlantic rifting (northern Ghana). *Scientific Reports*.
+- Nixon, A., Fernie, N., Glorie, S., et al. (2024). Thermal evolution and sediment provenance of the Cooper-Eromanga Basin: Insights from detrital apatite. *Basin Research*.
+- Nixon, A., Glorie, S., Fernie, N., et al. (2022). Intracontinental Fault Reactivation in High Heat Production Areas of Central Australia. *Geochemistry, Geophysics, Geosystems*.
 
 ### Awards
-<!-- List relevant awards, hackathons, competitions -->
-- [AWARD_NAME] - [EVENT] ([YEAR])
+- None documented in public sources.
 
 ### Behavioral Profile
-<!-- Your behavioral assessment results (PI, DISC, Myers-Briggs, or self-assessment) -->
-- **[TRAIT_1]** - [DESCRIPTION]
-- **[TRAIT_2]** - [DESCRIPTION]
-- **Strengths:** [YOUR_STRENGTHS]
-- **Growth areas:** [YOUR_GROWTH_AREAS]
-- **Thrives in:** [YOUR_IDEAL_ENVIRONMENT]
+- **Technical specialist** - depth in Cooper Basin geology and well-data integration
+- **Builder** - independent geosteering decision-support tool when vendor files are not enough
+- **Strengths:** operations-to-development career arc; published basin work; integrating logs, tops, and trajectories
+- **Growth areas:** quantitative seismic interpretation; full static reservoir modelling
+- **Thrives in:** integrated subsurface teams next to drill-well and reservoir decisions
 
 ### What Excites You
-<!-- What motivates you professionally -->
-- [PASSION_1]
-- [PASSION_2]
+- Turning well logs, cuttings, and surfaces into a clear well-placement decision
+- Development geoscience on producing assets, especially Cooper-style basin problems
+- Building small tools that shorten the loop between Petrel exports and the well
 
 ### Target Sectors
-<!-- Industries and companies you're targeting -->
-- [SECTOR_1]: [EXAMPLE_COMPANIES]
-- [SECTOR_2]: [EXAMPLE_COMPANIES]
+- Supermajor / IOC development geoscience: ExxonMobil (KLTC), Shell, Chevron
+- Australian operators: Santos, Woodside, Beach
 
 ### Deal-breakers
-<!-- Hard constraints on job search. Language requirements are handled separately and
-automatically from your Languages table above - don't duplicate them here. -->
-- [DEALBREAKER_1]
-- [DEALBREAKER_2]
+- Pure IT, network, or cyber roles, including ExxonMobil KL IT postings that are not subsurface
+- Roles that require an undeclared language (Malay is not listed)
+- Fabricating seismic QI or static-model ownership to chase a posting
 
 ## Repo Structure
 - `cv/` - LaTeX CV variants (moderncv template, banking style)

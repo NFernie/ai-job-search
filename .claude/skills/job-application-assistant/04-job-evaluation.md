@@ -60,9 +60,9 @@ How well do the required/preferred skills align with the candidate's capabilitie
 | 40-59 | Partial match, significant upskilling needed |
 | 0-39 | Fundamental mismatch |
 
-**Strong match areas:** [YOUR_PRIMARY_SKILLS]
-**Moderate match areas:** [YOUR_SECONDARY_SKILLS]
-**Weak match areas:** [SKILLS_YOU_LACK]
+**Strong match areas:** development geology on producing oil and gas assets; well-log interpretation (GR, resistivity, cuttings, fluorescence); wellsite operations geology; horizontal-well / geosteering decision support; Petrel well-data and surface export; Cooper-Eromanga / Cooper Basin subsurface; structural geology; geomechanics (applied, one-year posting); basin thermal history
+**Moderate match areas:** Python / FastAPI well-data tooling; Petrel as a daily geoscience platform (exports evidenced, full static modelling not evidenced); integration with reservoir engineering (role-adjacent, not a reservoir-engineer title)
+**Weak match areas:** quantitative seismic interpretation; sequence stratigraphy as a named professional skill; building and calibrating full static reservoir models; dynamic simulation (Eclipse, tNavigator, CMG); Malay language
 
 ### 2. Experience Match (0-100)
 Does work history align with what they're looking for? Match on the function and nature of the work performed, not the literal job title - a "Data Consultant" and a "Data Scientist" role can be functionally identical.
@@ -74,9 +74,9 @@ Does work history align with what they're looking for? Match on the function and
 | 40-59 | Adjacent experience, would need to make the case |
 | 0-39 | Unrelated experience |
 
-**Strong:** [YOUR_DIRECT_EXPERIENCE_DOMAINS]
-**Moderate:** [YOUR_ADJACENT_EXPERIENCE]
-**Entry-level:** [ROLES_WITH_LIMITED_EXPERIENCE]
+**Strong:** development geologist (Santos, 2021-present); wellsite geologist (Santos, 2019-2020); Cooper Basin geology (thesis, 2024 paper, public analogue wells)
+**Moderate:** geomechanics specialist year (Santos, 2020-2021); independent geosteering decision-support software; academic thermochronology applied to hydrocarbon basins
+**Entry-level:** quantitative seismic; static geomodelling as a dedicated skill; reservoir simulation
 
 ### 3. Behavioral/Culture Fit (0-100)
 Does the role and company culture match the behavioral profile?
@@ -93,8 +93,10 @@ Does the role and company culture match the behavioral profile?
 ### 4. Location & Logistics (Pass/Fail + Notes)
 - Within commute range: PASS
 - Remote with occasional office: PASS
-- Requires relocation: FAIL (deal-breaker)
+- Requires relocation to Kuala Lumpur or other listed APAC geoscience hubs: **PASS** (candidate has accepted this; Brisbane is the current base, not a hard stay-put constraint)
+- Requires relocation elsewhere: FLAG and confirm
 - Frequent international travel: FLAG (discuss with user)
+- Pure IT / network / cyber postings in KL: treat as out of scope even if the employer is ExxonMobil
 
 ### 5. Career Alignment & Motivation (0-100)
 Does this role advance career goals and contain tasks that energize?
@@ -107,19 +109,19 @@ Does this role advance career goals and contain tasks that energize?
 | 0-39 | Dead end or backwards step |
 
 **Career goals:**
-- [YOUR_CAREER_GOAL_1]
-- [YOUR_CAREER_GOAL_2]
-- [YOUR_CAREER_GOAL_3]
+- Development geoscience on producing assets, with a path into integrated reservoir description and well planning
+- Work that sits next to drilling decisions (geosteering, wellwork, development wells), not only academic basin analysis
+- Asia-Pacific upstream hubs, including ExxonMobil's Kuala Lumpur Technology Center, where global asset teams are supported from KL
 
 **Motivation filter:** Evaluate not just whether you *can* do the tasks, but whether the tasks will *energize* you. Consider:
-- Tasks that energize: [YOUR_ENERGIZING_TASKS]
-- Tasks that drain: [YOUR_DRAINING_TASKS]
-- Non-task factors: leadership style, department culture, company values, degree of autonomy
+- Tasks that energize: reservoir description from well data; integrating logs, tops, and trajectories; geosteering / drill-well support; Cooper-style basin problems; building small tools when the workflow is slow
+- Tasks that drain: generic IT support, network engineering, purely administrative programme tracking, seismic QI presented as already-mastered
+- Non-task factors: specialist technical culture; honest multi-disciplinary debate; tolerance for global time-zone coverage (KLTC supports sites worldwide)
 
 **Life situation alignment:** Consider personal constraints:
-- **Security**: [YOUR_FINANCIAL_SITUATION_CONTEXT]
-- **Flexibility**: [YOUR_SCHEDULE_CONSTRAINTS]
-- **Professional development**: [YOUR_GROWTH_PRIORITIES]
+- **Security**: currently employed at Santos; a move should be a genuine development-geoscience step, not a lateral IT posting
+- **Flexibility**: willing to relocate from Brisbane to Kuala Lumpur for the right geoscience role; KLTC roles often require flexibility outside standard office hours for global stakeholders
+- **Professional development**: close the seismic / static-model gap on the job; keep publishing only if it does not collide with operator confidentiality
 
 ### 6. Salary Benchmark (Optional)
 

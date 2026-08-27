@@ -1,0 +1,136 @@
+%% CV - ExxonMobil Geoscientist (Kuala Lumpur)
+%% Tailored from cv/main_example.tex. Facts grounded in 01-candidate-profile.md.
+%% Compile with: lualatex main_exxonmobil_geoscientist.tex
+
+\documentclass[11pt,a4paper,sans]{moderncv}
+\moderncvstyle{banking}
+\moderncvcolor{blue}
+
+\renewcommand*{\namefont}{\fontsize{34}{36}\bfseries\upshape}
+\colorlet{firstnamecolor}{color1}
+\colorlet{lastnamecolor}{color1}
+\colorlet{namecolor}{color1}
+\renewcommand*{\sectionstyle}[1]{{\sectionfont\color{color1}#1}}
+
+\usepackage[utf8]{inputenc}
+\AtEndPreamble{\hypersetup{
+    colorlinks=true,
+    linkcolor=blue,
+    filecolor=magenta,
+    urlcolor=blue,
+    pdftitle={Nicholas Fernie - CV - ExxonMobil Geoscientist},
+    pdfpagemode=UseNone,
+}}
+\usepackage[scale=0.77]{geometry}
+\usepackage{import}
+\usepackage{needspace}
+
+\name{Nicholas}{Fernie}
+\address{Brisbane, Queensland, Australia (relocating to Kuala Lumpur)}{}{}
+\email{fernienicholas@gmail.com}
+\extrainfo{\href{https://www.linkedin.com/in/nic-fernie-28125084}{LinkedIn}, \href{https://github.com/NFernie}{GitHub}}
+
+\begin{document}
+
+\makecvtitle
+
+\vspace{6pt}
+\small{Development geologist with an MPhil in Earth Sciences and more than seven years of upstream experience at Santos on producing assets, spanning wellsite operations, geomechanics, and development geology. I integrate well-log interpretation, formation tops, trajectories, and Petrel-exported surfaces to support drill-well and reservoir decisions. Cooper Basin subsurface is a sustained focus across thesis work, a 2024 Basin Research paper, and a public geosteering decision-support tool. Quantitative seismic interpretation and full static-model construction are skills I would grow inside an integrated KL team, not skills I already claim.}
+
+\section{Core Competencies}
+\vspace{1pt}
+\begin{itemize}
+
+\item \textbf{Reservoir description / well log interpretation}: gamma ray, resistivity (including LWD mnemonics), cuttings, fluorescence, and formation tops in a common TVDSS frame.
+
+\item \textbf{Field development and drill-well support}: wellsite operations geology, then development geology on producing assets; horizontal-well target windows and geosteering replay.
+
+\item \textbf{Subsurface mapping (well-based)}: Petrel export of LAS logs, ASCII surveys, tops, and McKinlay XYZ point-set surfaces. Not claimed as seismic mapping or full property-model builds.
+
+\item \textbf{Integration with adjacent disciplines}: career arc through wellsite, geomechanics, and development geology; independent tool work that sits next to drilling decisions.
+
+\item \textbf{Basin and structural context}: Cooper-Eromanga thermal history; first-author work on shear-zone reactivation.
+
+\end{itemize}
+
+\section{Professional Experience}
+\vspace{3pt}
+\begin{itemize}
+
+\needspace{5\baselineskip}
+\item{\cventry{Feb 2021 - Present}{Development Geologist}{Santos Ltd}{Brisbane, Australia}{}{\vspace{1pt}
+\begin{itemize}
+    \item Geoscience support to producing-asset development: reservoir description from well data, contribution to well-planning discussions, and geological input to field-development decisions (public title; confidential well counts omitted).
+    \item Cooper Basin through-line: MPhil on Cooper Basin thermal history, co-author on the 2024 Cooper-Eromanga Basin Research paper, and analogue Stimpee wells used for geosteering target-window work.
+    \item Integrates logs, tops, and trajectories so development and operations teams share one subsurface picture.
+    \item Open about gaps versus this posting: quantitative seismic interpretation and volumetric assessment are not part of the public record of this role.
+\end{itemize}}}
+
+\vspace{3pt}
+
+\needspace{5\baselineskip}
+\item{\cventry{Feb 2020 - Feb 2021}{Geomechanist}{Santos Ltd}{Brisbane, Australia}{}{\vspace{1pt}
+\begin{itemize}
+    \item Specialist geomechanics posting supporting well planning (mechanical subsurface context for drilling).
+    \item Direct precursor to the development geology role, not a detour into unrelated work.
+\end{itemize}}}
+
+\vspace{3pt}
+
+\needspace{5\baselineskip}
+\item{\cventry{Jan 2019 - Jan 2020}{Graduate Wellsite Geologist}{Santos Ltd}{Adelaide, Australia}{}{\vspace{1pt}
+\begin{itemize}
+    \item Operations geology at the wellsite: geological control during drilling, cuttings and log observation, and communication with the operations team.
+    \item Practical post-execution evaluation habit: what the well actually drilled versus what was planned.
+\end{itemize}}}
+
+\end{itemize}
+
+\section{Independent Projects}
+\vspace{1pt}
+\begin{itemize}
+\needspace{5\baselineskip}
+\item{\cventry{2025 - 2026}{Geosteering Guide}{\href{https://github.com/NFernie/Geosteering_Guide}{github.com/NFernie/Geosteering\_Guide}}{}{}{\vspace{1pt}
+Decision-support tool for horizontal-well drilling. Ingests Cooper Basin Stimpee 3/4/6 analogue wells (LAS, surveys, cuttings) to SQLite. FastAPI + React replay of Stimpee 6 against a McKinlay point-grid target window (top to 2~m TVDSS; 45/90 survey stations in window). Documents a Petrel export workflow. Independent project, not a Santos production system.
+}}
+\end{itemize}
+
+\section{Education}
+\vspace{1pt}
+\begin{itemize}
+
+\needspace{5\baselineskip}
+\item{\cventry{2017-2019}{Master of Philosophy, Geological and Earth Sciences}{University of Adelaide}{Adelaide, Australia}{}{\vspace{1pt}
+Thesis: ``Thermal History of Central Australia: Cooper Basin, South Australia \& Anmatjira Range, Northern Territory: Insights from Apatite Fission Track and U-Pb Thermochronology.''
+}}
+
+\vspace{3pt}
+
+\needspace{5\baselineskip}
+\item{\cventry{2013-2016}{BSc (Hons) Geology / BSc Earth Sciences}{University of Adelaide}{Adelaide, Australia}{}{\vspace{1pt}
+Honours thesis (2016): apatite thermochronology of the Bole-Nangodi Shear Zone, northern Ghana. Meets the posting's Geology / Earth Sciences degree requirement.
+}}
+
+\end{itemize}
+
+\section{Languages}
+\vspace{1pt}
+\begin{itemize}
+\item English (native). Working language of all listed roles and publications.
+\end{itemize}
+
+\section{Publications}
+\vspace{1pt}
+\begin{itemize}
+\item Nixon, A., Fernie, N., Glorie, S., et al. (2024). Thermal evolution and sediment provenance of the Cooper-Eromanga Basin: Insights from detrital apatite. \textit{Basin Research}. \href{https://doi.org/10.1111/bre.12843}{DOI}
+\item Fernie, N., Glorie, S., Jessell, M., Collins, A. S. (2018). Thermochronological insights into reactivation of a continental shear zone in response to Equatorial Atlantic rifting (northern Ghana). \textit{Scientific Reports}. \href{https://doi.org/10.1038/s41598-018-34769-x}{DOI}
+\item Nixon, A., Glorie, S., Fernie, N., et al. (2022). Intracontinental Fault Reactivation in High Heat Production Areas of Central Australia. \textit{Geochemistry, Geophysics, Geosystems}. \href{https://doi.org/10.1029/2022gc010559}{DOI}
+\end{itemize}
+
+\section{References}
+\vspace{1pt}
+\begin{itemize}
+\item{Available upon request.}
+\end{itemize}
+
+\end{document}

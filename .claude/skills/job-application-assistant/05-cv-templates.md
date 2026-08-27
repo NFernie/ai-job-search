@@ -130,11 +130,14 @@ When the role sits outside your home domain, **lead with the domain-transfer arg
 **Create 2-3 profile statement templates for your main role types:**
 
 <!-- SETUP: These are populated based on your background -->
-**For [YOUR_PRIMARY_ROLE_TYPE] roles:**
-> [YOUR_PROFILE_STATEMENT_TEMPLATE_1]
+**For development geoscientist / producing-asset roles:**
+> Development geologist with an MPhil in Earth Sciences and more than seven years at Santos, spanning wellsite operations, geomechanics, and development geology on producing assets. Cooper Basin subsurface is a sustained focus: MPhil thermal-history work, a 2024 Basin Research paper on Cooper-Eromanga evolution, and a public geosteering decision-support tool built on Stimpee analogue wells, well logs, Petrel surface exports, and target windows. I integrate geological and well data to support drill-well and reservoir decisions, and I am open about seismic QI and full static-model construction as skills I would grow in an integrated team.
 
-**For [YOUR_SECONDARY_ROLE_TYPE] roles:**
-> [YOUR_PROFILE_STATEMENT_TEMPLATE_2]
+**For geosteering / well-planning / operations-geology roles:**
+> Operations-grounded geologist who started as a wellsite geologist, spent a year as a geomechanist, and now works as a development geologist. I built Geosteering Guide, a decision-support system that replays horizontal-well logs (gamma ray, resistivity), cuttings, fluorescence, and Petrel-exported McKinlay surfaces against a TVDSS target window. I am at my best when the question is where the well is relative to the reservoir, not when the work is purely academic.
+
+**For research / basin-analysis roles:**
+> Earth scientist with a first-author Scientific Reports paper on shear-zone reactivation and subsequent Cooper-Eromanga thermochronology. I now apply that basin-history training inside an operator, and I look for roles where thermal history, structure, and well data still inform development decisions.
 
 Statements labeled *[Used for: <company>_<role>]* were extracted from archived application drafts by `/setup` Path A. They are **phrasing references, never fact sources**: when drafting from one, every factual claim still comes from `01-candidate-profile.md` - a past tailored draft does not vouch for its own accuracy.
 
