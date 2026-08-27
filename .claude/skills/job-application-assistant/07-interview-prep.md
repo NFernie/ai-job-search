@@ -16,45 +16,52 @@ Keep answers to 1-2 minutes. Be specific. End with what you learned or would do 
 
 <!-- These are populated by /setup from your actual experience. Below are templates showing the format. -->
 
-### 1. [PROJECT_NAME] ([SKILL_DEMONSTRATED])
-**S:** [CONTEXT - what was happening, what was the problem]
-**T:** [YOUR RESPONSIBILITY - what you specifically needed to do]
-**A:** [WHAT YOU DID - specific actions, tools, methods]
-**R:** [OUTCOME - measurable results, adoption, impact]
-**Use for:** "[QUESTION_TYPE_1]", "[QUESTION_TYPE_2]"
+### 1. Geosteering Guide (well-log integration, drill-well support)
+**S:** Horizontal-well decisions need logs, cuttings, trajectories, and a formation surface in the same frame. Vendor files (Petrel LAS, surveys, CPS3 grids) do not line up by default.
+**T:** Build a usable decision-support loop for analogue Cooper Basin Stimpee wells, starting with data truth, then a replay UI.
+**A:** Ingested Stimpee 3/4/6 to SQLite; standardised Z as negative TVDSS mSS so point-grid and trajectory align without a sign flip; preferred Petrel XYZ point-set export over CPS3 rasters after the raster missed the well path; built a FastAPI + React replay for Stimpee 6 (McKinlay top to 2 m below; 45/90 stations in the target window).
+**R:** Phase 0 and Phase 1b are complete on a public repo. This is an independent tool, not a Santos production system. Use it to show method, not operator impact.
+**Use for:** "Tell me about a time you integrated messy well data", "How do you support a drill-well programme?", "Give an example of initiative"
 
-### 2. [PROJECT_NAME] ([SKILL_DEMONSTRATED])
-**S:** [CONTEXT]
-**T:** [YOUR RESPONSIBILITY]
-**A:** [WHAT YOU DID]
-**R:** [OUTCOME]
-**Use for:** "[QUESTION_TYPE_1]", "[QUESTION_TYPE_2]"
+### 2. Cooper-Eromanga thermal history (basin / reservoir context)
+**S:** The Cooper-Eromanga system has hydrocarbon and geothermal interest, but the Cretaceous thermal maximum was poorly constrained.
+**T:** Contribute apatite fission-track, U-Pb, and geochemical work that feeds thermal-history models (Nixon, Fernie et al., 2024, *Basin Research*).
+**A:** Applied the same AFT / LA-ICP-MS methods from the MPhil; interpreted detrital populations and heating/cooling paths with co-authors.
+**R:** Peer-reviewed paper arguing radiogenic heating plus burial/thermal blanketing, not only a simple burial story. Directly relevant when a team asks "do you understand this basin, or only the well in front of you?"
+**Use for:** "Describe your basin knowledge", "How does academic work transfer to an operator?"
 
-### 3. [PROJECT_NAME] ([SKILL_DEMONSTRATED])
-**S:** [CONTEXT]
-**T:** [YOUR RESPONSIBILITY]
-**A:** [WHAT YOU DID]
-**R:** [OUTCOME]
-**Use for:** "[QUESTION_TYPE_1]", "[QUESTION_TYPE_2]"
+### 3. First-author shear-zone reactivation (Scientific Reports, 2018)
+**S:** The Bole-Nangodi shear zone in northern Ghana is interpreted as a continental extension of an equatorial Atlantic transform.
+**T:** Constrain its low-temperature thermal history as Honours then as a first-author paper.
+**A:** AFT data along the NE-SW trend; two-phase cooling (CAMP-related heating, then Cretaceous rift-shoulder exhumation); differential exposure north vs south of the zone.
+**R:** *Scientific Reports* paper (Fernie et al., 2018). Shows independent scientific delivery and structural thinking.
+**Use for:** "Tell me about a piece of work you owned end to end", "How do you handle structural problems?"
+
+### 4. Wellsite year then geomechanics year (operations to mechanics)
+**S:** Santos graduate path: wellsite geologist in Adelaide (2019), then geomechanist in Brisbane (2020-2021), then development geologist.
+**T:** Learn operations geology first, then subsurface mechanics, then development.
+**A:** (Fill with confidential well examples before interview.) Public fact is the sequence of titles, which is itself a coherent operations-to-development arc.
+**R:** Seven-plus years in one operator, not a series of disconnected contracts.
+**Use for:** "Walk me through your career", "Why development geology rather than research?"
 
 <!-- Add more STAR examples as needed. Aim for 4-6 covering different competencies. -->
 
 ## Common Tough Questions
 
 ### "Why did you leave [previous company]?"
-> [PREPARE YOUR ANSWER - be honest, forward-looking, no negativity about former employer]
+> Still at Santos. Frame a move as going toward global development-asset geoscience (KLTC supports ExxonMobil producing assets worldwide), not as an escape. Do not criticise Santos.
 
 ### "You don't have [specific skill/experience]."
-> [PREPARE YOUR ANSWER - acknowledge the gap, bridge to adjacent experience, show willingness to learn]
+> For quantitative seismic: "I have not been a QI specialist. I do interpret well logs, tops, trajectories, and Petrel-exported surfaces, and I would treat seismic as the next dataset in the same integration habit." For full static models: "I export and interrogate Petrel surfaces and well data. I have not owned a property-model build. That is a gap I would close in an integrated team, not something I will pretend is already done."
 
 ### "Where do you see yourself in 5 years?"
-> [PREPARE YOUR ANSWER - show ambition aligned with the role's growth path]
+> Integrated development geoscientist who can sit with reservoir engineers on depletion planning and with drillers on well placement, with seismic and static-model literacy added on the job.
 
 ### "What's your biggest weakness?"
-> [PREPARE YOUR ANSWER - genuine weakness with concrete mitigation strategy]
+> Public CV is thin on confidential Santos metrics. In the room, give one real well example. On skills: seismic QI is the honest gap, already named.
 
 ### "Why this company specifically?"
-> Customize per company. Must reference: specific projects, company values, market position, or team structure. Never give a generic answer.
+> Customize per company. For ExxonMobil KL: KLTC as a global upstream support hub (corporate energy technology centers page; Malaysia operations page: two PETRONAS PSCs, ~40 platforms). The geoscientist posting is development and producing assets, which matches the Santos arc. Never give a generic "large IOC" answer.
 
 ## Questions You Should Ask Interviewers
 
