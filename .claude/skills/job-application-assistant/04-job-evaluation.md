@@ -60,9 +60,9 @@ How well do the required/preferred skills align with the candidate's capabilitie
 | 40-59 | Partial match, significant upskilling needed |
 | 0-39 | Fundamental mismatch |
 
-**Strong match areas:** development geology on producing oil and gas assets; well-log interpretation (GR, resistivity, cuttings, fluorescence); wellsite operations geology; horizontal-well / geosteering decision support; Petrel well-data and surface export; Cooper-Eromanga / Cooper Basin subsurface; structural geology; geomechanics (applied, one-year posting); basin thermal history
-**Moderate match areas:** Python / FastAPI well-data tooling; Petrel as a daily geoscience platform (exports evidenced, full static modelling not evidenced); integration with reservoir engineering (role-adjacent, not a reservoir-engineer title)
-**Weak match areas:** quantitative seismic interpretation; sequence stratigraphy as a named professional skill; building and calibrating full static reservoir models; dynamic simulation (Eclipse, tNavigator, CMG); Malay language
+**Strong match areas:** development geology on producing oil and tight-gas assets; reservoir characterization and well-log interpretation; static reservoir models in Petrel (field and regional, uncertainty analysis, workflow automation); sequence stratigraphy and sedimentology (core, analogues, compartmentalization); opportunity generation; field development and drill-well planning (horizontal oil/gas, tight-gas factory campaigns, 100+ onshore wells); wellsite operations (onshore and offshore); geomechanics (MEMs, offset-well and frac reviews); structural analysis; Cooper Basin subsurface; static-to-dynamic handoff (tNavigator)
+**Moderate match areas:** seismic depth conversions; qualitative seismic interpretation (Horizon South China Sea vacation; 2025 seismic geomorphology/stratigraphy course); integration with reservoir engineering for depletion planning
+**Weak match areas:** quantitative seismic interpretation; volumetric assessment as a named skill; wellwork / well intervention; Malay language
 
 ### 2. Experience Match (0-100)
 Does work history align with what they're looking for? Match on the function and nature of the work performed, not the literal job title - a "Data Consultant" and a "Data Scientist" role can be functionally identical.
@@ -74,9 +74,9 @@ Does work history align with what they're looking for? Match on the function and
 | 40-59 | Adjacent experience, would need to make the case |
 | 0-39 | Unrelated experience |
 
-**Strong:** development geologist (Santos, 2021-present); wellsite geologist (Santos, 2019-2020); Cooper Basin geology (thesis, 2024 paper, public analogue wells)
-**Moderate:** geomechanics specialist year (Santos, 2020-2021); independent geosteering decision-support software; academic thermochronology applied to hydrocarbon basins
-**Entry-level:** quantitative seismic; static geomodelling as a dedicated skill; reservoir simulation
+**Strong:** development geologist (Santos, 2021-present: Cooper Central tight gas including a 22-well appraisal campaign; Cooper Oil from 2023, seven horizontals geosteered); wellsite geologist onshore and offshore (2019-2020); well planning across 100+ onshore wells
+**Moderate:** geomechanics specialist year (MEMs, offset-well and frac reviews); Horizon Oil South China Sea vacation (seismic interpretation, wireline, core, PVT, structural mapping); four peer-reviewed basin/thermochronology papers
+**Entry-level:** quantitative seismic interpretation; volumetric assessment as a named skill; well intervention
 
 ### 3. Behavioral/Culture Fit (0-100)
 Does the role and company culture match the behavioral profile?
@@ -109,12 +109,12 @@ Does this role advance career goals and contain tasks that energize?
 | 0-39 | Dead end or backwards step |
 
 **Career goals:**
-- Development geoscience on producing assets, with a path into integrated reservoir description and well planning
-- Work that sits next to drilling decisions (geosteering, wellwork, development wells), not only academic basin analysis
+- Development geoscience on producing assets: static models, sequence stratigraphy, opportunity generation, and drill-well delivery
+- Work that sits next to drilling decisions (geosteering, horizontal oil and tight-gas campaigns), not only academic basin analysis
 - Asia-Pacific upstream hubs, including ExxonMobil's Kuala Lumpur Technology Center, where global asset teams are supported from KL
 
 **Motivation filter:** Evaluate not just whether you *can* do the tasks, but whether the tasks will *energize* you. Consider:
-- Tasks that energize: reservoir description from well data; integrating logs, tops, and trajectories; geosteering / drill-well support; Cooper-style basin problems; building small tools when the workflow is slow
+- Tasks that energize: geology-driven static models; geosteering horizontals; factory-style well campaigns; core-to-analogue sedimentology; opportunity generation
 - Tasks that drain: generic IT support, network engineering, purely administrative programme tracking, seismic QI presented as already-mastered
 - Non-task factors: specialist technical culture; honest multi-disciplinary debate; tolerance for global time-zone coverage (KLTC supports sites worldwide)
 

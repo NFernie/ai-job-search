@@ -4,92 +4,150 @@ framework_version: 1.1.1
 
 # Candidate Profile
 
-**Source note (setup Path B, public records):** `documents/` was empty. This profile was assembled from public sources: LinkedIn (`nic-fernie-28125084`), ORCID (`0000-0002-6757-3765`), University of Adelaide theses, peer-reviewed publications, and GitHub (`NFernie`). Santos role *titles and dates* are from LinkedIn. Internal well counts, software proficiency beyond Petrel exports documented in Geosteering Guide, and confidential field results are **not** claimed. Expand this file with private achievements before treating later drafts as complete.
+**Source note (setup Path A, 27 Aug 2026):** Rebuilt from `documents/cv/Nicholas Fernie CV 2026.pdf`, `documents/cv/Nicholas Fernie_Skills.pdf`, `documents/cv/List of Publications_NicholasFernie.pdf`, and `documents/linkedin/Profile.pdf`. Work *type* is taken from the Skills PDF; publications are the four papers on the publications list only. LinkedIn supplies official Santos titles and date splits. CV 2026 supplies the Cooper Basin narrative, contact details, education names, training, and vacation-programme work.
+
+**Cross-reference resolutions (applied):**
+1. **Santos titles:** LinkedIn granular titles and dates (Graduate Wellsite Geologist; Geomechanist; Development Geologist). Work content from CV 2026 + Skills PDF.
+2. **Education names:** CV 2026 (MPhil Geoscience; Bachelor of Geophysics and Applied Geology with First Class Honours). LinkedIn "Honors, Geology/Earth Science" is a coarser label.
+3. **Horizon Oil dates:** CV Nov 2015-Feb 2016 (LinkedIn said Oct 2015-Feb 2016).
+4. **Location:** CV Teneriffe, Queensland (LinkedIn "Greater Adelaide Area" is stale).
+5. **Publications:** only the four titles on the publications PDF. The 2023 Glorie et al. Lu-Hf paper from public ORCID is **not** claimed.
+6. **Languages:** English native; Spanish intermediate (CV "dual-lingual").
+7. **tNavigator:** LinkedIn Top Skill, consistent with Skills PDF "static to dynamic modelling workflows".
 
 ## Identity
-- **Name:** Nicholas Fernie
+- **Name:** Nicholas Stewart Fernie
 - **Preferred name:** Nic Fernie
-- **Location:** Brisbane, Queensland, Australia
-- **Phone:** (not published; add before submitting)
+- **Location:** Teneriffe, Brisbane, Queensland, Australia
+- **Address (CV):** 65/36 Vernon Terrace, Teneriffe, 4005, QLD, Australia
+- **Phone:** +61 421 776 104
 - **Email:** fernienicholas@gmail.com
 - **LinkedIn:** https://www.linkedin.com/in/nic-fernie-28125084
 - **GitHub:** https://github.com/NFernie
 - **ORCID:** https://orcid.org/0000-0002-6757-3765
+- **Nationality:** Australia and UK
+- **Date of birth:** 17 November 1986 (do not put on CVs)
 - **Status:** Employed (Development Geologist, Santos Ltd)
-- **Constraints:** Based in Brisbane. Open to relocating to Kuala Lumpur and other Asia-Pacific upstream hubs for development-geoscience roles.
+- **Constraints:** Based in Teneriffe / Brisbane. Open to relocating to Kuala Lumpur and other Asia-Pacific upstream hubs for development-geoscience roles. Travel flexible.
 
 ### Languages
 
 | Language | Level | Notes |
 |----------|-------|-------|
 | English | Native | Working language for all listed roles and publications |
+| Spanish | Intermediate | CV: dual-lingual English and intermediate Spanish |
 
 ## Education
 
 | Degree | Period | Institution | Key Topics |
 |--------|--------|-------------|------------|
-| Master of Philosophy in Geological and Earth Sciences | 2017-2019 | University of Adelaide | Thesis: "Thermal History of Central Australia: Cooper Basin, South Australia & Anmatjira Range, Northern Territory: Insights from Apatite Fission Track and U-Pb Thermochronology." Basin thermal history, apatite fission-track (AFT) dating, U-Pb thermochronology, Cooper Basin. |
-| Bachelor of Science (Honours) in Geology | 2016 | University of Adelaide | Honours thesis (Nov 2016): "Apatite Thermochronology of the Bole-Nangodi Shear Zone (northern Ghana): Insights into the Thermal History of Equatorial Atlantic Rifting." Structural geology, low-temperature thermochronology, rift-related reactivation. |
-| Bachelor of Science in Earth Sciences | 2013-2015 | University of Adelaide | Earth sciences fundamentals. ORCID records 2013-03-01 to 2015-11-20. |
+| Master of Philosophy in Geoscience | 2017-2019 | University of Adelaide | Thesis: "Thermal History of Central Australia: Cooper Basin, South Australia & Anmatjira Ranges, Northern Territory: Insights from Apatite Fission Track & U-Pb Thermochronology." Heavy mineral geology, thermochronology, sediment provenance, field geology, structural geology. |
+| Bachelor of Geophysics and Applied Geology with First Class Honours | 2013-2016 | University of Adelaide | Honours GPA 7.00. Honours thesis: low-temperature thermochronology of the Ghanaian (Ghanese) margin in the context of Equatorial Atlantic rifting during the Cretaceous (published as Fernie et al., 2018). Undergraduate GPA 5.98. Courses: sedimentary geology, tectonics and structural geology, geophysics, ArcGIS, remote sensing, field geoscience, igneous and metamorphic geology, physics, statistics, mineral and energy resources, Earth systems history. |
+
+**ExxonMobil field trip (Apr 2018):** Four-day graduate-recruitment field trip, Cape Liptrap, south-eastern Victoria. Lectures, table-top exercises, field localities.
 
 ## Professional Experience
 
 ### Development Geologist - Santos Ltd (Feb 2021 - Present)
 Brisbane, Queensland, Australia
-- Development geology on Santos producing assets (LinkedIn title and dates). Day-to-day well counts, software stack, and field names beyond the public Cooper Basin research record are not published and must be added by the candidate.
-- Cooper Basin is a demonstrated technical focus: MPhil thesis on Cooper Basin thermal history; 2024 Basin Research co-author paper on Cooper-Eromanga thermal evolution and sediment provenance; public Geosteering Guide analogue work uses Cooper Basin Stimpee wells (McKinlay target window, well logs, trajectories).
-- Role sits after a dedicated geomechanics year, so well-planning and mechanical subsurface context is part of the career arc, not a separate unproven claim.
+
+Joined the Cooper/NT group in 2021. Almost eight years at Santos in total (Jan 2019-present).
+
+**Cooper Central (CC) Tight Gas (from 2021):**
+- Participated in and led projects that resulted in large-scale well-appraisal and development campaigns in Moomba.
+- As non-lead geologist on CC projects: identified and defined conventional-type secondary targets to support the primary tight gas objective.
+- As project lead: the team delivered a **22-well tight gas appraisal campaign**.
+
+**Cooper Oil (2023-present):**
+- Geosteered **7 horizontal wells in four fields**, targeting shallow marine and onshore fluvial reservoirs.
+- Geology-driven static model builds; honours reservoir architecture from core-scale information through to modern analogue recognition.
+
+**Skills PDF (work type for this period and adjacent Santos years):**
+- Static modelling: static-to-dynamic workflows; Petrel workflow builds for automation; uncertainty analysis using Petrel tools; seismic depth conversions; regional modelling; local (field-level) modelling; opportunity generation.
+- Sedimentology: full-hole core reviews; depositional analogue selection; application to modelling and subsurface uncertainty; deposition-controlled compartmentalization; sequence stratigraphy.
+- Production geology: compartmentalization analysis (fault-driven and stratigraphic); reservoir complexity analysis to optimise recovery factor; regional field screening.
+- Well planning: tight gas factory-style programmes of 20+ wells per campaign, including fracture stimulation; horizontal well planning (oil and gas); conventional well planning; overseen **100+ onshore wells**.
+- Play types: shallow marine; fractured granite; tight fluvial reservoirs; conventional fluvial reservoirs; shale.
 
 ### Geomechanist - Santos Ltd (Feb 2020 - Feb 2021)
 Brisbane, Queensland, Australia
-- One-year specialist posting in geomechanics (LinkedIn title and dates). Treat as applied subsurface mechanics supporting well planning, not as a computational FEM / Abaqus specialist unless the candidate later documents that stack.
+- Development of mechanical earth models (MEMs).
+- Offset well reviews.
+- Frac reviews.
+- CV: large exposure to operations geology and geomechanics in the Subsurface Ops group; routinely participating in field geology, well planning, and horizontal drilling.
 
 ### Graduate Wellsite Geologist - Santos Ltd (Jan 2019 - Jan 2020)
 Adelaide, South Australia, Australia
-- Operations geology at the wellsite (LinkedIn title and dates): geological control during drilling, cuttings and well-log observation, communication with the operations team. Specific wells and campaigns are not in the public record.
+- Wellsite geologist for **onshore and offshore** operations.
+- Mudlogging, coring, wireline logging, reporting.
+- CV: began as graduate geologist with exposure to operations geology and geomechanics in Subsurface Ops; field geology, well planning, and horizontal drilling.
+
+### Vacation Student - Santos Ltd (Nov 2016 - Mar 2017)
+Adelaide, South Australia, Australia
+- Thermal history of Tanumbirini-1, central McArthur Basin, NT.
+- Collation of previously conceptualised 2D basin models, organic-matter reflectance data, and heavy-mineral dating with the University of Adelaide.
+
+### Vacation Student - Horizon Oil (Nov 2015 - Feb 2016)
+Sydney, New South Wales, Australia
+- Subsurface team; collation and interpretation of data for oil and gas fields in the South China Sea.
+- Wireline logs, seismic interpretation, core analysis, PVT data, structural mapping, and reservoir data.
 
 ## Independent Projects
-- **Geosteering Guide** (https://github.com/NFernie/Geosteering_Guide): Decision-support tool for horizontal well drilling. Combines well-log data (gamma ray, resistivity, rock descriptions, fluorescence), trajectories, and formation surfaces. Cooper Basin Stimpee 3/4/6 analogue wells ingested to SQLite. Phase 0 data-truth and Phase 1 Stimpee 6 log UI / replay are complete. Stack: Python ingest, FastAPI, React + Tailwind UI, planned RAG over a well-data corpus. Documents a **Petrel** export workflow (LAS 2.0 logs, ASCII surveys, formation tops, McKinlay XYZ point-set surfaces, cuttings CSV; TVDSS negative mSS; MGA2020-54; Periscope / LWD resistivity mnemonics). Target window: McKinlay point-grid top to 2 m below TVDSS. Stimpee 6 horizontal: 45/90 survey stations in the target window.
-- **Horizontaldata_review** (https://github.com/NFernie/Horizontaldata_review): Python repository for reviewing horizontal-well data (short-lived working store).
+- **Geosteering Guide** (https://github.com/NFernie/Geosteering_Guide): Independent decision-support tool for horizontal well drilling (not a Santos production system). Petrel LAS/survey/tops/XYZ exports; Cooper Basin Stimpee analogue wells. CV also records 2025-2026 self-learning of AI tools in Cursor / Claude Code for niche fit-for-purpose tools, apps, and websites.
 
 ## Technical Skills
 
-### Programming & ML
-- **Python** (working): well-data ingest, SQLite, FastAPI, phase-0 processing scripts (`Geosteering_Guide`)
-- **TypeScript / JavaScript** (working): React + Tailwind geosteering UI
-- **SQL** (working): SQLite well database for Stimpee analogue wells
-- Local LLM / RAG (in progress on Geosteering Guide Phase 2; do not claim production MLOps)
-
-### Domain Expertise
-- Development geology on producing oil and gas assets
-- Wellsite operations geology
-- Geomechanics (one-year specialist posting)
-- Horizontal-well / geosteering decision support: well logs (GR, resistivity), cuttings, fluorescence, trajectories, formation tops, target windows
-- Basin thermal history and low-temperature thermochronology (AFT, apatite U-Pb) applied to the Cooper-Eromanga system and to intracontinental shear-zone reactivation
-- Structural geology (honours work on the Bole-Nangodi shear zone)
+### Domain (from Skills PDF; use this list when writing CVs)
+- **Wellsite operations:** onshore and offshore; mudlogging; coring; wireline logging; reporting
+- **Geomechanics:** MEMs; offset well reviews; frac reviews
+- **Static modelling:** static-to-dynamic workflows; Petrel automation; uncertainty analysis; seismic depth conversions; regional and field-level modelling; opportunity generation
+- **Sedimentology:** full-hole core reviews; analogue selection; sequence stratigraphy; deposition-controlled compartmentalization
+- **Production geology:** fault and stratigraphic compartmentalization; reservoir complexity / recovery factor; regional field screening
+- **Well planning:** 20+ well tight-gas factory campaigns including frac; horizontal oil and gas; conventional; 100+ onshore wells overseen
+- **Play types:** shallow marine; fractured granite; tight fluvial; conventional fluvial; shale
 
 ### Software & Tools
-- **Petrel**: documented export of LAS logs, surveys, tops, and surface point sets for geosteering workflows (Geosteering Guide `planning/10-petrel-export-guide.md`). Not claimed as a full static-model / property-modelling specialist.
-- Git, Docker, Render (Geosteering Guide deployment files)
-- FastTracks / RadialPlotter / LA-ICP-MS fission-track workflow (academic papers)
+- Petrel (static models, workflows, uncertainty, depth conversion)
+- Petrosys
+- GIS tools
+- tNavigator (LinkedIn top skill; static-to-dynamic handoff)
+- Microsoft Office
+- Cursor / Claude Code (fit-for-purpose tools; do not lead geoscience CVs with this unless the posting asks)
 
 ### Honest gaps (do not invent these)
-- Quantitative seismic interpretation
-- Sequence stratigraphy as a named professional skill
-- Building and history-matching full static reservoir models in Petrel / RMS
-- Industry-standard dynamic simulators (Eclipse, tNavigator, CMG)
+- Quantitative seismic interpretation (have qualitative seismic interpretation from Horizon vacation, seismic depth conversions, and a 2025 Seismic Geomorphology and Seismic Stratigraphy course; that is **not** QI)
+- Volumetric assessment as a named professional skill (not on the Skills PDF)
+- Wellwork / well intervention (Skills cover drill-well planning and wellsite operations, not intervention)
 - Malay language
 
+## Additional Training (CV 2026)
+- 2025-2026: self-learning AI tools, focused on Cursor / Claude Code
+- 2019-2026: various soft skills and LEAP training
+- 2025: Seismic Geomorphology and Seismic Stratigraphy
+- 2025: Fluvial Systems - First Principles to Development
+- 2025: Reservoir Model Design Training
+- 2024: Geostatistical Modelling for Reservoir Characterisation
+- 2023: Sedimentology & Stratigraphy for Field Development Workshop
+- 2022: Geostatistical modelling & Reservoir Characterization
+- 2022: Development Planning for Mature Fields
+- 2021: Non-marine Reservoirs & Sequence Stratigraphy
+- 2020: Practical Petroleum Systems Analysis
+- 2019: Prospect maturation and risk
+
+## Professional Memberships
+- PESA and Geological Society of Australia (from 2015)
+
 ## Publications
-1. Fernie, N., Glorie, S., Jessell, M., & Collins, A. S. (2018). Thermochronological insights into reactivation of a continental shear zone in response to Equatorial Atlantic rifting (northern Ghana). *Scientific Reports*. https://doi.org/10.1038/s41598-018-34769-x
-2. Nixon, A., Fernie, N., Glorie, S., Hand, M., Bendell, B., et al. (2024). Thermal evolution and sediment provenance of the Cooper-Eromanga Basin: Insights from detrital apatite. *Basin Research*. https://doi.org/10.1111/bre.12843
-3. Nixon, A., Glorie, S., Fernie, N., Hand, M., De Vries Van Leeuwen, A. T., Collins, A. S., Hasterok, D., & Fraser, G. (2022). Intracontinental Fault Reactivation in High Heat Production Areas of Central Australia: Insights From Apatite Fission Track Thermochronology. *Geochemistry, Geophysics, Geosystems*. https://doi.org/10.1029/2022gc010559
-4. Glorie, S., Fernie, N., Gillespie, J., et al. (2023). Robust laser ablation Lu-Hf dating of apatite: an empirical evaluation. *Geological Society, London, Special Publications*. https://doi.org/10.1144/sp537-2022-205
-5. Fernie, N. (2019). Thermal History of Central Australia: Cooper Basin, South Australia & Anmatjira Range, Northern Territory: Insights from Apatite Fission Track and U-Pb Thermochronology. MPhil thesis, University of Adelaide.
-6. Fernie, N. S. (2016). Apatite Thermochronology of the Bole-Nangodi Shear Zone (northern Ghana): Insights into the Thermal History of Equatorial Atlantic Rifting. Honours thesis, University of Adelaide.
+
+Author or co-author list from `documents/cv/List of Publications_NicholasFernie.pdf` (titles and dates from that PDF; journals/DOIs independently confirmed):
+
+1. Nixon, A., Fernie, N., Glorie, S., Hand, M., & Bendell, B. (Jan 2024). Thermal evolution and sediment provenance of the Cooper-Eromanga Basin: Insights from detrital apatite. *Basin Research*. https://doi.org/10.1111/bre.12843
+2. Nixon, A., Glorie, S., Fernie, N., Hand, M., De Vries Van Leeuwen, A. T., Collins, A. S., Hasterok, D., & Fraser, G. (Dec 2022). Intracontinental Fault Reactivation in High Heat Production Areas of Central Australia: Insights From Apatite Fission Track Thermochronology. *Geochemistry, Geophysics, Geosystems*. https://doi.org/10.1029/2022gc010559
+3. Nixon, A., Glorie, S., Hasterok, D., Collins, A. S., Fernie, N., & Fraser, G. (Jul 2022). Low-temperature thermal history of the McArthur Basin: Influence of the Cambrian Kalkarindji Large Igneous Province on hydrocarbon maturation. *Basin Research*, 34(6), 1936-1959. https://doi.org/10.1111/bre.12691
+4. Fernie, N., Glorie, S., Jessell, M., & Collins, A. S. (Nov 2018). Thermochronological insights into reactivation of a continental shear zone in response to Equatorial Atlantic rifting (northern Ghana). *Scientific Reports*. https://doi.org/10.1038/s41598-018-34769-x
 
 ## Awards
-- None documented in public sources.
+- First Class Honours (GPA 7.00), University of Adelaide.
 
 ## References
 More references available upon request. Named referees have not been added (no reference letters in `documents/references/`).
