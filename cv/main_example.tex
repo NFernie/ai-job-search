@@ -1,6 +1,6 @@
 %% Master CV - Nicholas Fernie
 %% Comprehensive overview of competencies, experience, and achievements.
-%% Use as a master reference when tailoring role-specific CVs.
+%% Source: documents/cv (CV 2026, Skills PDF, publications list) and LinkedIn Profile.pdf.
 %% Compile with: lualatex main_example.tex
 
 \documentclass[11pt,a4paper,sans]{moderncv}
@@ -22,13 +22,13 @@
     pdftitle={Nicholas Fernie - CV},
     pdfpagemode=UseNone,
 }}
-\usepackage[scale=0.80]{geometry}
+\usepackage[scale=0.77]{geometry}
 \usepackage{import}
 \usepackage{needspace}
 
-% personal data
 \name{Nicholas}{Fernie}
-\address{Brisbane, Queensland, Australia}{}{}
+\address{Teneriffe, Brisbane, Queensland, Australia}{}{}
+\phone[mobile]{+61 421 776 104}
 \email{fernienicholas@gmail.com}
 \extrainfo{\href{https://www.linkedin.com/in/nic-fernie-28125084}{LinkedIn}, \href{https://github.com/NFernie}{GitHub}}
 
@@ -37,21 +37,21 @@
 \makecvtitle
 
 \vspace{6pt}
-\small{Development geologist with an MPhil in Earth Sciences and more than seven years at Santos, spanning wellsite operations, geomechanics, and development geology on producing assets. Cooper Basin subsurface is a sustained focus across thesis work, a 2024 Basin Research paper, and a public geosteering decision-support tool built on well logs, Petrel surface exports, and horizontal-well target windows.}
+\small{Development geologist with an MPhil in Geoscience, First Class Honours, and almost eight years at Santos spanning onshore and offshore wellsite operations, geomechanics, and development geology on Cooper Basin oil and tight-gas assets. Builds geology-driven static models in Petrel, generates development opportunities, and has geosteered seven horizontal wells across shallow marine and fluvial reservoirs.}
 
 \section{Core Competencies}
 \vspace{1pt}
 \begin{itemize}
 
-\item \textbf{Development geology}: producing-asset geoscience after a wellsite year and a geomechanics year at the same operator.
+\item \textbf{Reservoir characterization}: well-log interpretation, core reviews, sequence stratigraphy, and production geology (fault and stratigraphic compartmentalization).
 
-\item \textbf{Well-log interpretation}: gamma ray, resistivity, cuttings, fluorescence, trajectories, and formation tops in a common TVDSS frame.
+\item \textbf{Static reservoir models}: Petrel field- and regional-scale models, workflow automation, uncertainty analysis, seismic depth conversion, and static-to-dynamic handoff (tNavigator).
 
-\item \textbf{Horizontal wells / geosteering}: decision-support for target windows using Petrel-exported surfaces and analogue Cooper Basin wells.
+\item \textbf{Field development / drill-well}: factory-style tight-gas campaigns (20+ wells, including frac), horizontal oil and gas well planning, conventional wells; 100+ onshore wells overseen.
 
-\item \textbf{Basin context}: Cooper-Eromanga thermal history (MPhil; 2024 Basin Research co-author).
+\item \textbf{Wellsite and geomechanics}: onshore and offshore mudlogging, coring, wireline, and reporting; MEMs, offset-well reviews, and frac reviews.
 
-\item \textbf{Structural geology}: first-author Scientific Reports paper on shear-zone reactivation (2018).
+\item \textbf{Play types}: shallow marine, tight and conventional fluvial, shale, and fractured granite.
 
 \end{itemize}
 
@@ -59,50 +59,63 @@
 \vspace{3pt}
 \begin{itemize}
 
+\needspace{5\baselineskip}
 \item{\cventry{Feb 2021 - Present}{Development Geologist}{Santos Ltd}{Brisbane, Australia}{}{\vspace{1pt}
 \begin{itemize}
-    \item Development geology on Santos producing assets (title and dates from public profile; confidential well metrics omitted).
-    \item Cooper Basin remains the technical through-line: MPhil thermal history, 2024 Cooper-Eromanga paper, and public Stimpee analogue wells used for geosteering.
-    \item Integrates well data and geological interpretation to support development and well-planning discussions.
+    \item Cooper Oil (2023-present): geology-driven static models; geosteered 7 horizontal wells in four fields targeting shallow marine and onshore fluvial reservoirs; honoured reservoir architecture from core to analogue.
+    \item Cooper Central tight gas (from 2021): as project lead, delivered a 22-well tight gas appraisal campaign in Moomba; as non-lead, defined conventional-type secondary targets around the primary tight-gas objective.
+    \item Opportunity generation, sequence stratigraphy, and compartmentalization analysis (fault-driven and stratigraphic) to support recovery-factor and field-screening decisions.
+    \item Petrel static-to-dynamic workflows, uncertainty analysis, seismic depth conversions, and regional plus field-level modelling.
 \end{itemize}}}
 
 \vspace{3pt}
 
+\needspace{5\baselineskip}
 \item{\cventry{Feb 2020 - Feb 2021}{Geomechanist}{Santos Ltd}{Brisbane, Australia}{}{\vspace{1pt}
 \begin{itemize}
-    \item Specialist geomechanics posting supporting well planning.
-    \item Bridge year between wellsite operations and development geology.
+    \item Built mechanical earth models (MEMs); completed offset-well and frac reviews in support of well planning and horizontal drilling.
 \end{itemize}}}
 
 \vspace{3pt}
 
+\needspace{5\baselineskip}
 \item{\cventry{Jan 2019 - Jan 2020}{Graduate Wellsite Geologist}{Santos Ltd}{Adelaide, Australia}{}{\vspace{1pt}
 \begin{itemize}
-    \item Operations geology at the wellsite: geological control during drilling and communication with the operations team.
+    \item Onshore and offshore wellsite geology: mudlogging, coring, wireline logging, and geological reporting.
 \end{itemize}}}
 
-\end{itemize}
+\vspace{3pt}
 
-\section{Independent Projects}
-\vspace{1pt}
+\needspace{5\baselineskip}
+\item{\cventry{Nov 2016 - Mar 2017}{Vacation Student}{Santos Ltd}{Adelaide, Australia}{}{\vspace{1pt}
 \begin{itemize}
-\item{\cventry{2025 - 2026}{Geosteering Guide}{\href{https://github.com/NFernie/Geosteering_Guide}{github.com/NFernie/Geosteering\_Guide}}{}{}{\vspace{1pt}
-Decision-support tool for horizontal wells. Ingests Cooper Basin Stimpee 3/4/6 wells to SQLite; FastAPI + React replay of Stimpee 6 logs against a McKinlay TVDSS target window (45/90 stations in window). Documents a Petrel export workflow (LAS 2.0, ASCII surveys, tops, XYZ point-set surfaces). Independent project, not a Santos production system.
-}}
+    \item Thermal history of Tanumbirini-1 (McArthur Basin): 2D basin models, organic-matter reflectance, and heavy-mineral dating with the University of Adelaide.
+\end{itemize}}}
+
+\vspace{3pt}
+
+\needspace{5\baselineskip}
+\item{\cventry{Nov 2015 - Feb 2016}{Vacation Student}{Horizon Oil}{Sydney, Australia}{}{\vspace{1pt}
+\begin{itemize}
+    \item South China Sea subsurface: wireline logs, seismic interpretation, core analysis, PVT, structural mapping, and reservoir data.
+\end{itemize}}}
+
 \end{itemize}
 
 \section{Education}
 \vspace{1pt}
 \begin{itemize}
 
-\item{\cventry{2017-2019}{Master of Philosophy, Geological and Earth Sciences}{University of Adelaide}{Adelaide, Australia}{}{\vspace{1pt}
-Thesis: ``Thermal History of Central Australia: Cooper Basin, South Australia \& Anmatjira Range, Northern Territory: Insights from Apatite Fission Track and U-Pb Thermochronology.''
+\needspace{5\baselineskip}
+\item{\cventry{2017-2019}{Master of Philosophy, Geoscience}{University of Adelaide}{Adelaide, Australia}{}{\vspace{1pt}
+Thesis: ``Thermal History of Central Australia: Cooper Basin, South Australia \& Anmatjira Ranges, Northern Territory: Insights from Apatite Fission Track \& U-Pb Thermochronology.''
 }}
 
 \vspace{3pt}
 
-\item{\cventry{2013-2016}{BSc (Hons) Geology / BSc Earth Sciences}{University of Adelaide}{Adelaide, Australia}{}{\vspace{1pt}
-Honours thesis (2016): apatite thermochronology of the Bole-Nangodi Shear Zone, northern Ghana.
+\needspace{5\baselineskip}
+\item{\cventry{2013-2016}{Bachelor of Geophysics and Applied Geology with First Class Honours}{University of Adelaide}{Adelaide, Australia}{}{\vspace{1pt}
+Honours GPA 7.00 (undergraduate GPA 5.98). Honours thesis: low-temperature thermochronology of the Ghanaian margin and Equatorial Atlantic rifting.
 }}
 
 \end{itemize}
@@ -110,15 +123,16 @@ Honours thesis (2016): apatite thermochronology of the Bole-Nangodi Shear Zone, 
 \section{Languages}
 \vspace{1pt}
 \begin{itemize}
-\item English (native).
+\item English (native). Spanish (intermediate).
 \end{itemize}
 
 \section{Publications}
 \vspace{1pt}
 \begin{itemize}
-\item Fernie, N., Glorie, S., Jessell, M., Collins, A. S. (2018). Thermochronological insights into reactivation of a continental shear zone in response to Equatorial Atlantic rifting (northern Ghana). \textit{Scientific Reports}. \href{https://doi.org/10.1038/s41598-018-34769-x}{DOI}
-\item Nixon, A., Fernie, N., Glorie, S., et al. (2024). Thermal evolution and sediment provenance of the Cooper-Eromanga Basin: Insights from detrital apatite. \textit{Basin Research}. \href{https://doi.org/10.1111/bre.12843}{DOI}
-\item Nixon, A., Glorie, S., Fernie, N., et al. (2022). Intracontinental Fault Reactivation in High Heat Production Areas of Central Australia. \textit{G-cubed}. \href{https://doi.org/10.1029/2022gc010559}{DOI}
+\item Nixon, A., Fernie, N., Glorie, S., Hand, M., Bendell, B. (2024). Thermal evolution and sediment provenance of the Cooper-Eromanga Basin: Insights from detrital apatite. \textit{Basin Research}. \href{https://doi.org/10.1111/bre.12843}{DOI}
+\item Nixon, A., Glorie, S., Hasterok, D., Collins, A.~S., Fernie, N., Fraser, G. (2022). Low-temperature thermal history of the McArthur Basin: Influence of the Cambrian Kalkarindji Large Igneous Province on hydrocarbon maturation. \textit{Basin Research}. \href{https://doi.org/10.1111/bre.12691}{DOI}
+\item Fernie, N., Glorie, S., Jessell, M., Collins, A.~S. (2018). Thermochronological insights into reactivation of a continental shear zone in response to Equatorial Atlantic rifting (northern Ghana). \textit{Scientific Reports}. \href{https://doi.org/10.1038/s41598-018-34769-x}{DOI}
+\item Nixon, A., Glorie, S., Fernie, N., et al. (2022). Intracontinental Fault Reactivation in High Heat Production Areas of Central Australia. \textit{Geochemistry, Geophysics, Geosystems}. \href{https://doi.org/10.1029/2022gc010559}{DOI}
 \end{itemize}
 
 \section{References}

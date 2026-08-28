@@ -1,6 +1,6 @@
 # Job Application Assistant for Nicholas Fernie
 
-<!-- SETUP: Profile assembled from public sources (LinkedIn, ORCID, publications, GitHub). documents/ was empty. Expand Santos bullets with confidential achievements before treating drafts as final. -->
+<!-- SETUP: Profile rebuilt 27 Aug 2026 from documents/cv (CV 2026, Skills PDF, publications list) and documents/linkedin/Profile.pdf. -->
 
 ## Role
 This repo is a job application workspace. Claude acts as a career advisor and application assistant for Nicholas Fernie, helping with:
@@ -14,61 +14,67 @@ This repo is a job application workspace. Claude acts as a career advisor and ap
 
 ### Identity
 - **Name:** Nicholas Fernie
-- **Location:** Brisbane, Queensland, Australia (open to relocating to Kuala Lumpur and other APAC upstream hubs)
+- **Location:** Teneriffe, Brisbane, Queensland, Australia (open to relocating to Kuala Lumpur and other APAC upstream hubs)
 - **Languages:**
   | Language | Level |
   |----------|-------|
   | English | Native |
+  | Spanish | Intermediate |
 - **CV language:** English
 
 - **Status:** Employed (Development Geologist, Santos Ltd)
 - **LinkedIn headline:** "Development Geologist at Santos Ltd"
 
 ### Education
-- **MPhil in Geological and Earth Sciences** (2017-2019) - University of Adelaide
-  - Thesis: "Thermal History of Central Australia: Cooper Basin, South Australia & Anmatjira Range, Northern Territory: Insights from Apatite Fission Track and U-Pb Thermochronology."
-  - Topics: Cooper Basin thermal history, AFT, U-Pb thermochronology
-- **BSc (Hons) in Geology** (2016) - University of Adelaide
-  - Thesis: "Apatite Thermochronology of the Bole-Nangodi Shear Zone (northern Ghana): Insights into the Thermal History of Equatorial Atlantic Rifting."
-- **BSc in Earth Sciences** (2013-2015) - University of Adelaide
+- **MPhil in Geoscience** (2017-2019) - University of Adelaide
+  - Thesis: "Thermal History of Central Australia: Cooper Basin, South Australia & Anmatjira Ranges, Northern Territory: Insights from Apatite Fission Track & U-Pb Thermochronology."
+  - Topics: Cooper Basin thermal history, AFT, U-Pb thermochronology, sediment provenance, structural geology
+- **Bachelor of Geophysics and Applied Geology with First Class Honours** (2013-2016) - University of Adelaide
+  - Honours GPA 7.00; undergraduate GPA 5.98
+  - Honours thesis: low-temperature thermochronology of the Ghanaian margin and Equatorial Atlantic rifting (published Fernie et al., 2018)
 
 ### Professional Experience
 - **Development Geologist** (Feb 2021 - Present) - **Santos Ltd** (Brisbane, Australia)
-  - Development geology on producing assets (public title and dates; internal well metrics not published)
-  - Sustained Cooper Basin technical focus across thesis, 2024 Basin Research paper, and public geosteering analogue wells
+  - Cooper Central tight gas from 2021: conventional secondary targets; project-lead 22-well tight gas appraisal campaign, Moomba
+  - Cooper Oil from 2023: geology-driven static models; geosteered 7 horizontal wells in four fields (shallow marine and fluvial)
 - **Geomechanist** (Feb 2020 - Feb 2021) - **Santos Ltd** (Brisbane, Australia)
-  - Specialist geomechanics posting supporting well planning
+  - MEMs, offset well reviews, frac reviews; well planning and horizontal drilling support
 - **Graduate Wellsite Geologist** (Jan 2019 - Jan 2020) - **Santos Ltd** (Adelaide, Australia)
-  - Operations geology at the wellsite
+  - Onshore and offshore wellsite: mudlogging, coring, wireline logging, reporting
+- **Vacation Student** (Nov 2016 - Mar 2017) - **Santos Ltd** (Adelaide)
+  - Tanumbirini-1 thermal history, McArthur Basin
+- **Vacation Student** (Nov 2015 - Feb 2016) - **Horizon Oil** (Sydney)
+  - South China Sea subsurface: wireline, seismic interpretation, core, PVT, structural mapping
 
 ### Technical Skills
-- **Primary:** development geology; well-log interpretation (GR, resistivity, cuttings); wellsite operations; horizontal-well / geosteering decision support; Cooper-Eromanga subsurface
-- **Secondary:** geomechanics (one-year posting); Python / FastAPI well-data tooling; React UI for log replay
-- **Domain:** producing-asset development geoscience; basin thermal history; structural geology
-- **Software:** Petrel (LAS, surveys, tops, surface point-set export); Git; Docker
+- **Primary:** reservoir characterization; well-log interpretation; Petrel static modelling (uncertainty, depth conversion, automation); sequence stratigraphy; opportunity generation; field development and drill-well planning; horizontal geosteering; wellsite operations
+- **Secondary:** geomechanics (MEMs, frac reviews); tNavigator static-to-dynamic handoff; GIS / Petrosys; Cursor / Claude Code for fit-for-purpose tools
+- **Domain:** Cooper Basin oil and tight gas; shallow marine, fluvial, shale, fractured granite plays; production geology (compartmentalization, recovery factor)
+- **Software:** Petrel; Petrosys; GIS; tNavigator; Microsoft Office
 
 ### Certifications
-- None documented in public sources.
+- Selected short courses 2019-2025 including Seismic Geomorphology and Seismic Stratigraphy, Reservoir Model Design, Geostatistical Modelling for Reservoir Characterisation, sequence stratigraphy, Development Planning for Mature Fields (see 01-candidate-profile.md)
 
 ### Publications
-- Fernie, N., Glorie, S., Jessell, M., & Collins, A. S. (2018). Thermochronological insights into reactivation of a continental shear zone in response to Equatorial Atlantic rifting (northern Ghana). *Scientific Reports*.
-- Nixon, A., Fernie, N., Glorie, S., et al. (2024). Thermal evolution and sediment provenance of the Cooper-Eromanga Basin: Insights from detrital apatite. *Basin Research*.
+- Nixon, A., Fernie, N., Glorie, S., Hand, M., & Bendell, B. (2024). Thermal evolution and sediment provenance of the Cooper-Eromanga Basin: Insights from detrital apatite. *Basin Research*.
 - Nixon, A., Glorie, S., Fernie, N., et al. (2022). Intracontinental Fault Reactivation in High Heat Production Areas of Central Australia. *Geochemistry, Geophysics, Geosystems*.
+- Nixon, A., Glorie, S., Hasterok, D., Collins, A. S., Fernie, N., & Fraser, G. (2022). Low-temperature thermal history of the McArthur Basin: Influence of the Cambrian Kalkarindji Large Igneous Province on hydrocarbon maturation. *Basin Research*.
+- Fernie, N., Glorie, S., Jessell, M., & Collins, A. S. (2018). Thermochronological insights into reactivation of a continental shear zone in response to Equatorial Atlantic rifting (northern Ghana). *Scientific Reports*.
 
 ### Awards
-- None documented in public sources.
+- First Class Honours (GPA 7.00), University of Adelaide
 
 ### Behavioral Profile
-- **Technical specialist** - depth in Cooper Basin geology and well-data integration
-- **Builder** - independent geosteering decision-support tool when vendor files are not enough
-- **Strengths:** operations-to-development career arc; published basin work; integrating logs, tops, and trajectories
-- **Growth areas:** quantitative seismic interpretation; full static reservoir modelling
+- **Operations-to-development specialist** - wellsite, geomechanics, tight gas campaigns, oil horizontals
+- **Campaign delivery** - 22-well appraisal lead; 100+ onshore wells overseen
+- **Strengths:** geology-driven static models; safety and team communication; core-to-analogue sedimentology
+- **Growth areas:** quantitative seismic interpretation; volumetric assessment as a named skill
 - **Thrives in:** integrated subsurface teams next to drill-well and reservoir decisions
 
 ### What Excites You
-- Turning well logs, cuttings, and surfaces into a clear well-placement decision
-- Development geoscience on producing assets, especially Cooper-style basin problems
-- Building small tools that shorten the loop between Petrel exports and the well
+- Geology-driven static models that honour reservoir architecture into a horizontal well
+- Factory-style development campaigns and opportunity generation on producing assets
+- Building small tools (Cursor / Claude Code) when the Petrel workflow is slow
 
 ### Target Sectors
 - Supermajor / IOC development geoscience: ExxonMobil (KLTC), Shell, Chevron
@@ -77,7 +83,7 @@ This repo is a job application workspace. Claude acts as a career advisor and ap
 ### Deal-breakers
 - Pure IT, network, or cyber roles, including ExxonMobil KL IT postings that are not subsurface
 - Roles that require an undeclared language (Malay is not listed)
-- Fabricating seismic QI or static-model ownership to chase a posting
+- Fabricating seismic QI, volumetrics, or well-intervention ownership to chase a posting
 
 ## Repo Structure
 - `cv/` - LaTeX CV variants (moderncv template, banking style)

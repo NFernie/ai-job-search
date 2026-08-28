@@ -14,37 +14,47 @@ Keep answers to 1-2 minutes. Be specific. End with what you learned or would do 
 
 ## Ready-Made STAR Examples
 
-<!-- These are populated by /setup from your actual experience. Below are templates showing the format. -->
+### 1. Cooper Oil horizontals (static models + geosteering)
+**S:** From 2023, Cooper Oil needed horizontal wells in shallow marine and onshore fluvial reservoirs across four fields.
+**T:** Deliver geology-driven static models and geosteer the wells so the trajectory honours reservoir architecture from core to analogue.
+**A:** Built field-level static models in Petrel; used sequence stratigraphy, core reviews, and modern analogues; geosteered seven wells.
+**R:** Seven horizontals delivered in four fields. Use confidential recovery/placement metrics in the room, not on the CV.
+**Use for:** "Tell me about a static model you owned", "How do you support a drill-well programme?", "Give an example of integrating sedimentology into a model"
 
-### 1. Geosteering Guide (well-log integration, drill-well support)
-**S:** Horizontal-well decisions need logs, cuttings, trajectories, and a formation surface in the same frame. Vendor files (Petrel LAS, surveys, CPS3 grids) do not line up by default.
-**T:** Build a usable decision-support loop for analogue Cooper Basin Stimpee wells, starting with data truth, then a replay UI.
-**A:** Ingested Stimpee 3/4/6 to SQLite; standardised Z as negative TVDSS mSS so point-grid and trajectory align without a sign flip; preferred Petrel XYZ point-set export over CPS3 rasters after the raster missed the well path; built a FastAPI + React replay for Stimpee 6 (McKinlay top to 2 m below; 45/90 stations in the target window).
-**R:** Phase 0 and Phase 1b are complete on a public repo. This is an independent tool, not a Santos production system. Use it to show method, not operator impact.
-**Use for:** "Tell me about a time you integrated messy well data", "How do you support a drill-well programme?", "Give an example of initiative"
+### 2. Cooper Central 22-well tight gas appraisal (campaign lead)
+**S:** Cooper Central tight gas in Moomba needed large-scale appraisal, not a single well.
+**T:** As project lead, deliver a multi-well tight gas appraisal campaign; as non-lead on other CC projects, define conventional secondary targets around the tight-gas objective.
+**A:** Factory-style well planning (Skills PDF: 20+ wells per campaign, including fracture stimulation); opportunity generation; static models and uncertainty where they informed well count and placement.
+**R:** Team delivered a 22-well tight gas appraisal campaign. Prepare the confidential "why 22" and secondary-target volumes for interview.
+**Use for:** "Describe a programme you led", "How do you generate opportunities on a producing asset?", "Tell me about working with completions / frac"
 
-### 2. Cooper-Eromanga thermal history (basin / reservoir context)
-**S:** The Cooper-Eromanga system has hydrocarbon and geothermal interest, but the Cretaceous thermal maximum was poorly constrained.
-**T:** Contribute apatite fission-track, U-Pb, and geochemical work that feeds thermal-history models (Nixon, Fernie et al., 2024, *Basin Research*).
-**A:** Applied the same AFT / LA-ICP-MS methods from the MPhil; interpreted detrital populations and heating/cooling paths with co-authors.
-**R:** Peer-reviewed paper arguing radiogenic heating plus burial/thermal blanketing, not only a simple burial story. Directly relevant when a team asks "do you understand this basin, or only the well in front of you?"
+### 3. Wellsite to geomechanics to development (operations arc)
+**S:** Santos graduate path: wellsite geologist (2019, Adelaide), geomechanist (2020-2021, Brisbane), then development geologist.
+**T:** Learn the well first, then the mechanical model, then the field.
+**A:** Onshore and offshore wellsite: mudlogging, coring, wireline, reporting. Then MEMs, offset-well reviews, and frac reviews. Then Cooper/NT development.
+**R:** Almost eight years in one operator; 100+ onshore wells overseen. Shows the posting's "drilling planning and post-execution evaluation" without claiming well intervention.
+**Use for:** "Walk me through your career", "How do you work with drillers and reservoir engineers?"
+
+### 4. Cooper-Eromanga and McArthur Basin papers (basin / hydrocarbon maturation)
+**S:** Cooper-Eromanga thermal history was poorly constrained; McArthur Basin hydrocarbon timing was unclear.
+**T:** Contribute AFT / U-Pb work that feeds thermal-history models (Nixon, Fernie et al., 2024, *Basin Research*; Nixon et al., 2022 McArthur Basin *Basin Research*).
+**A:** Same methods as the MPhil and the Santos Tanumbirini-1 vacation project (2D basin models, reflectance, heavy-mineral dating).
+**R:** Two Basin Research papers plus the 2018 first-author Scientific Reports shear-zone paper. Directly relevant when a team asks "do you understand the basin, or only the well in front of you?"
 **Use for:** "Describe your basin knowledge", "How does academic work transfer to an operator?"
 
-### 3. First-author shear-zone reactivation (Scientific Reports, 2018)
-**S:** The Bole-Nangodi shear zone in northern Ghana is interpreted as a continental extension of an equatorial Atlantic transform.
-**T:** Constrain its low-temperature thermal history as Honours then as a first-author paper.
-**A:** AFT data along the NE-SW trend; two-phase cooling (CAMP-related heating, then Cretaceous rift-shoulder exhumation); differential exposure north vs south of the zone.
-**R:** *Scientific Reports* paper (Fernie et al., 2018). Shows independent scientific delivery and structural thinking.
-**Use for:** "Tell me about a piece of work you owned end to end", "How do you handle structural problems?"
+### STAR Candidates (Complete Manually)
 
-### 4. Wellsite year then geomechanics year (operations to mechanics)
-**S:** Santos graduate path: wellsite geologist in Adelaide (2019), then geomechanist in Brisbane (2020-2021), then development geologist.
-**T:** Learn operations geology first, then subsurface mechanics, then development.
-**A:** (Fill with confidential well examples before interview.) Public fact is the sequence of titles, which is itself a coherent operations-to-development arc.
-**R:** Seven-plus years in one operator, not a series of disconnected contracts.
-**Use for:** "Walk me through your career", "Why development geology rather than research?"
+### Horizon Oil South China Sea vacation
+**Source:** CV 2026 - Horizon Oil, Nov 2015-Feb 2016
+**What happened:** Collated and interpreted wireline, seismic, core, PVT, structural mapping, and reservoir data for SCS oil and gas fields.
+**Why it matters:** Honest bridge to "geophysical interpretation" without claiming QI.
+**S/T/A/R stub:**
+- Situation:
+- Task:
+- Action:
+- Result:
 
-<!-- Add more STAR examples as needed. Aim for 4-6 covering different competencies. -->
+<!-- Aim for 4-6 covering different competencies. -->
 
 ## Common Tough Questions
 
@@ -52,16 +62,16 @@ Keep answers to 1-2 minutes. Be specific. End with what you learned or would do 
 > Still at Santos. Frame a move as going toward global development-asset geoscience (KLTC supports ExxonMobil producing assets worldwide), not as an escape. Do not criticise Santos.
 
 ### "You don't have [specific skill/experience]."
-> For quantitative seismic: "I have not been a QI specialist. I do interpret well logs, tops, trajectories, and Petrel-exported surfaces, and I would treat seismic as the next dataset in the same integration habit." For full static models: "I export and interrogate Petrel surfaces and well data. I have not owned a property-model build. That is a gap I would close in an integrated team, not something I will pretend is already done."
+> For quantitative seismic: "I have not been a QI specialist. I do seismic depth conversions in Petrel, I interpreted seismic on a South China Sea vacation programme at Horizon Oil, and I completed Seismic Geomorphology and Seismic Stratigraphy in 2025. I would treat QI as the next dataset in the same integration habit." For volumetrics: "Opportunity generation is part of my Santos work. I have not listed volumetric assessment as a named skill; I would close that next to the team's standard workflow rather than pretend it is already a headline competency." For wellwork: "My operations experience is drill-well planning, wellsite geology, and post-drill evaluation, not well intervention."
 
 ### "Where do you see yourself in 5 years?"
-> Integrated development geoscientist who can sit with reservoir engineers on depletion planning and with drillers on well placement, with seismic and static-model literacy added on the job.
+> Integrated development geoscientist who owns static models, sits with reservoir engineers on depletion planning, and with drillers on well placement, with QI literacy added on the job.
 
 ### "What's your biggest weakness?"
-> Public CV is thin on confidential Santos metrics. In the room, give one real well example. On skills: seismic QI is the honest gap, already named.
+> Quantitative seismic interpretation is the honest gap, already named. In the room, give one real well example of how you already use seismic as a depth-conversion and stratigraphic framework, not as inversions.
 
 ### "Why this company specifically?"
-> Customize per company. For ExxonMobil KL: KLTC as a global upstream support hub (corporate energy technology centers page; Malaysia operations page: two PETRONAS PSCs, ~40 platforms). The geoscientist posting is development and producing assets, which matches the Santos arc. Never give a generic "large IOC" answer.
+> Customize per company. For ExxonMobil KL: attended the April 2018 ExxonMobil graduate field trip at Cape Liptrap. KLTC as a global IT/engineering/upstream support hub (corporate energy technology centers page; Malaysia operations page: two PETRONAS PSCs, ~40 platforms). The geoscientist posting is development and producing assets, which matches the Santos arc. Never give a generic "large IOC" answer.
 
 ## Questions You Should Ask Interviewers
 
@@ -69,15 +79,16 @@ Keep answers to 1-2 minutes. Be specific. End with what you learned or would do 
 - "What does a typical week look like in this role?"
 - "What would success look like in the first 6 months?"
 - "What's the biggest challenge the team is facing right now?"
+- "How much of the work is static-model interrogation versus new interpretation versus drill-well support?"
 
 ### About the Team
 - "How big is the team, and how do you divide work?"
 - "What does the development/project lifecycle look like, from idea to production?"
-- "How do you onboard new team members?"
+- "How do you onboard new team members onto global assets they have not worked before?"
 
 ### About Tech & Growth
-- "What's your current tech stack for [relevant area]?"
-- "Is there room to grow into more architectural or strategic decisions?"
+- "What's your current geoscience stack (Petrel, tNavigator, proprietary tools)?"
+- "Is there room to grow QI and volumetrics on the job?"
 - "How does the team stay current with new tools and methods?"
 
 ### About Culture (use these to prevent disappointment)

@@ -6,7 +6,7 @@
 
 The `site:` query templates in this file are the **WebSearch fallback** — for portals without a CLI, company career pages, or when a CLI fails.
 
-**Language scope:** English only (Languages table: English native). Danish portal skills stay `enabled: false`.
+**Language scope:** English native, Spanish intermediate. Danish portal skills stay `enabled: false`. A posting that requires Malay as a job condition is excluded.
 
 ## Search Sites
 
@@ -68,7 +68,7 @@ Relocation from Brisbane to Kuala Lumpur is **accepted**, not a deal-breaker.
 
 ## Language Filter
 
-English native. Apply `04-job-evaluation.md` Language Gate. A posting that requires Malay (or any undeclared language) as a job condition is excluded.
+English native, Spanish intermediate. Apply `04-job-evaluation.md` Language Gate. A posting that requires Malay (or any undeclared language) as a job condition is excluded.
 
 ## Date Filter
 
