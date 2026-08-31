@@ -6,7 +6,7 @@
 
 The `site:` query templates in this file are the **WebSearch fallback** — for portals without a CLI, company career pages, or when a CLI fails.
 
-**Language scope:** English native, Spanish intermediate. Danish portal skills stay `enabled: false`. A posting that requires Malay as a job condition is excluded.
+**Language scope:** English native, Spanish intermediate. Danish portal skills (jobindex, jobnet, jobdanmark, jobbank) are **enabled**. A posting that requires Danish (or Malay, or any other undeclared language) as a job condition fails the Language Gate.
 
 ## Search Sites
 
@@ -15,6 +15,7 @@ Primary:
 - **linkedin.com/jobs** - LinkedIn; covered by `linkedin-search` CLI (`-l "Kuala Lumpur, Malaysia"` or `-l "Brisbane, Queensland, Australia"`)
 - **seek.com.au** - Australian operator and service-company geoscience
 - **freehire.me** - tech-adjacent only; weak for geoscience, keep as a secondary CLI
+- **jobindex.dk / jobnet.dk / jobdanmark.dk / jobbank.dk** - Danish portals (enabled); use `geolog`, `geofysiker`, `olie`, `reservoir`, `geoscientist`
 
 Secondary (company career pages via Google):
 - Direct Google searches with `site:` filters for Santos, ExxonMobil, Woodside, Shell, PETRONAS, Hess, ConocoPhillips
@@ -63,6 +64,7 @@ site:linkedin.com/jobs "development geologist" Petrel
 - **Acceptable:** Other Malaysia ExxonMobil sites; Adelaide; Perth (operator geoscience)
 - **Borderline:** Singapore or Bangalore geoscience hubs (relocation stretch)
 - **Too far / skip:** Purely IT / network / cyber roles in KL even if they are ExxonMobil; roles that require Malay as a job condition
+- **Denmark (Jobindex / Jobnet / Jobdanmark / Jobbank):** FLAG relocation — user asked to include these portals; do not silently drop Danish listings, but mark Denmark as a relocation stretch vs Brisbane / Kuala Lumpur
 
 Relocation from Brisbane to Kuala Lumpur is **accepted**, not a deal-breaker.
 
